@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('fonts/TTLakes-Regular.eot');
+  src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+  url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TTLakes-Regular.woff') format('woff'),
+  url('fonts/TTLakes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('fonts/TTLakes-Medium.eot');
+  src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+  url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TTLakes-Medium.woff') format('woff'),
+  url('fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('fonts/TTLakes-Bold.eot');
+  src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+  url('fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TTLakes-Bold.woff') format('woff'),
+  url('fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.title__text {
+  font-family: 'TT Lakes Bold', sans-serif;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  color: #1B1C21;
+}
+
+.about__button {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #7E7E82;
+}
+
+.post__p {
+font-family: 'TT Lakes Regular', sans-serif;
+font-size: 14px;
+line-height: 115%;
+letter-spacing: 0.2px;
+color: #1B1C21;
+}
+
+.post__button {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+.swiper-title p {
+font-family: 'TT Lakes Regular', sans-serif;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+text-transform: uppercase;
+color: #7E7E82;
+}
+.brand-menu__button {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+.services__text {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+.services-menu__button {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E82;
+  opacity: 0.72;
+}
+
+.price__text {
+  font-family: 'TT Lakes Regular', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1B1C21;
+}
+
+.price__button {
+  text-align: left;
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+thead .table__row {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  opacity: 0.72;
+  color: #7E7E82;
+}
+.table__row {
+  font-family: 'TT Lakes Regular', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1B1C21;
+  text-align: left;
+  font-weight: normal;
+}
+
+.title__list {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+.title__button:nth-of-type(1) {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+.title__button:nth-of-type(2) {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 17px;
+  line-height: 115%;
+}
+
+::placeholder {
+  font-family: 'TT Lakes Regular', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #B5B6BC;
+}
+
+.input__text {
+  text-align: left;
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E82;
+}
+
+.list__link {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+}
+.footer__link {
+  font-family: 'TT Lakes Bold', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+}
+.footer__button, .footer__mail {
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  letter-spacing: -0.2px;
+  color: #1B1C21;
+}
+.active {color: #7E7E82;}
+.item__title span{
+  font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7E7E82;
+  opacity: 0.72;
+}
+
+.item__title {
+  font-family: 'TT Lakes Regular', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1B1C21;
+}
