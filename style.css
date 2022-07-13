@@ -594,6 +594,9 @@ form {
 textarea {
   resize: none; }
 
+button {
+  cursor: pointer; }
+
 @font-face {
   font-family: 'TT Lakes Regular';
   src: url(./fonts/TTLakes-Regular.eot);
