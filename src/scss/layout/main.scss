@@ -1,0 +1,11 @@
+@import "../abstracts/mixins.scss";
+
+
+.main {
+
+  @include media(desktop) {
+    min-width: 76.7%;
+    margin-left:320px;
+  }
+
+}

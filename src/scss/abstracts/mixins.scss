@@ -1,0 +1,20 @@
+
+@mixin media($size) {
+  @if $size == mobile {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $size == table {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $size == desktop-min {
+    @media (min-width: 1120px) {
+      @content;
+    }
+  } @else if $size == desktop {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+}

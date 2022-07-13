@@ -180,7 +180,7 @@ thead .table__row {
   letter-spacing: -0.2px;
   color: #1B1C21;
 }
-.active {color: #7E7E82;}
+/*.active {color: #7E7E82;}*/
 .item__title span{
   font-family: 'TT Lakes Medium', sans-serif;
   font-size: 14px;

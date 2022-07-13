@@ -68,7 +68,7 @@ module.exports = {
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
       title: 'Webpack 4 Starter',
-      template: './src/index.html',
+      template: './src/index1.html',
       inject: true,
       minify: {
         removeComments: true,

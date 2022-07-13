@@ -20,10 +20,13 @@ window.onload =  () => {
 }
 
 const brandMenu = document.querySelector('.brand-menu__list')
-const brandMenuHidden = brandMenu.querySelector('.menu-hidden')
+
+const brandMenuHidden = brandMenu.querySelector('.menu--hidden')
 const brandMenuButtonHidden = document.querySelector('.brand-menu__button:last-of-type')
 const brandMenuButton = document.querySelector('.brand-menu__button:first-of-type')
-
+console.log(brandMenuHidden)
+console.log(brandMenuButtonHidden)
+console.log(brandMenuButton)
 
 brandMenuButton.addEventListener('click', function (){
   brandMenuHidden.classList.add('menu-visible')
@@ -36,7 +39,7 @@ brandMenuButtonHidden.addEventListener('click', function (){
   brandMenuButton.classList.add('brand-menu__button')
 })
 const servicesMenu = document.querySelector('.services-menu')
-const servicesMenuHidden = servicesMenu.querySelector('.menu-hidden')
+const servicesMenuHidden = servicesMenu.querySelector('.menu--hidden')
 const servicesMenuButtonHidden = document.querySelector('.services-menu__button:last-of-type')
 const servicesMenuButton = document.querySelector('.services-menu__button:first-of-type')
 
@@ -116,12 +119,15 @@ const mainMenuFeedback = document.querySelector('.footer__item:nth-of-type(2) .f
 
 mainMenuCall.addEventListener('click', function () {
   callMenu.classList.add('active')
+  mainMenu.classList.remove('active')
   feedbackMenu.classList.remove('active')
   popupBlur.classList.remove('hidden')
 })
 mainMenuFeedback.addEventListener('click', function () {
   feedbackMenu.classList.add('active')
   callMenu.classList.remove('active')
+  mainMenu.classList.remove('active')
+
   popupBlur.classList.remove('hidden')
 })
 
