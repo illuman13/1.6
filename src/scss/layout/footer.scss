@@ -7,6 +7,7 @@
   justify-content: center;
   width: 90%;
   margin: 0 auto;
+
   @include media(table) {
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -15,13 +16,17 @@
     .footer__content:nth-child(2) .footer__text {text-align: center;}
     .footer__content:last-child .footer__text {text-align: right;}
   }
+
   .footer__content {min-width: 51%;}
+
   .footer__content:last-child {
     .footer__text {text-align: center;}
   }
+
   .footer__content:nth-child(2) {
     .footer__text {text-align: center;}
   }
+
 }
 
 .footer {
@@ -44,6 +49,7 @@
 
 
     .footer__content {
+      margin-bottom: 1em;
       min-width: 51%;
       @include media(table) {
         min-width: 33%;
