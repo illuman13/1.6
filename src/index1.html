@@ -8,11 +8,106 @@
   <title>block_1.3</title>
 </head>
 <body>
+<div class="overlay hidden"></div>
 
+<aside class="main-menu__aside">
+  <div class="main-menu">
+    <div class="main-menu__header">
+      <div class="main-menu__item">
+        <button class="main-menu__button main-menu__button--hidden close__modal"></button>
+        <a href="#" class="main-menu__link"><img src="img/Logo.svg" alt="Логотип"></a>
+      </div>
+      <div class="main-menu__item">
+        <button class="main-menu__button"></button>
+      </div>
+    </div>
+    <div class="main-menu__wrapper">
+      <nav class="main-menu__nav">
+        <ul class="main-menu__list">
+          <li class="list__item item--active">
+            <a class="list__link">Ремонт техники</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Услуги и сервисы</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Корпоративным клиентам</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Продавцам техники</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Партнерам</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Производителям</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Наши сервисные центры</a>
+          </li>
+          <li class="list__item">
+            <a class="list__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-menu__footer">
+      <ul class="footer__list">
+        <li class="footer__item"><button class="footer__button"></button></li>
+        <li class="footer__item"><button class="footer__button"></button></li>
+        <li class="footer__item"><button class="footer__button"></button></li>
+      </ul>
+      <div class="footer__mail"><a href='mailto:mail@cps.com'>mail@cps.com</a></div>
+      <div class="footer__phone"><a class="footer__link" href="tel:88008908900">8 800 890 8900</a></div>
+      <ul class="footer__list">
+        <li class="footer__item"><button class="footer__button active">RU</button></li>
+        <li class="footer__item"><button class="footer__button">EN</button></li>
+        <li class="footer__item"><button class="footer__button">CH</button></li>
+      </ul>
+    </div>
+  </div>
+</aside>
+<aside class="call-menu__aside">
+  <div class="call-menu">
+    <div class="call-menu__header call-header">
+      <div class="call-menu__item">
+        <button  class="call-menu__button close__modal"></button>
+      </div>
+      <div class="title__item">
+        <span class="title__text">Заказать звонок</span>
+      </div>
+      <form class="call-menu__form" method="post">
+        <input type="tel" placeholder="Телефон" class="call-menu__input">
+        <p class="input__text">Нажимая “отправить”, вы даете согласие на <span class="input__item input__item--red">обработку персональных данных</span> и соглашаетесь с нашей <span class="input__item input__item--red">политикой конфиденциальности</span> </p>
+        <button class="input__button" type="submit"></button>
+      </form>
+    </div>
+  </div>
+</aside>
+<aside class="feedback-menu__aside">
+  <div class="feedback-menu">
+    <div class="feedback-menu__header feedback-header">
+      <div class="feedback-menu__item">
+        <button  class="feedback-menu__button close__modal"></button>
+      </div>
+      <div class="title__item">
+        <span class="title__text">Обратная связь</span>
+      </div>
+      <form class="feedback-menu__form" method="post">
+        <input type="text" placeholder="Имя" class="feedback-menu__input">
+        <input type="tel" placeholder="Телефон" class="feedback-menu__input">
+        <input type="email" placeholder="Электронная почта" class="feedback-menu__input">
+        <textarea class="feedback-menu__textarea" placeholder="Сообщение" rows="6"></textarea>
+        <p class="input__text">Нажимая “отправить”, вы даете согласие на <span class="input__item input__item--red">обработку персональных данных</span> и соглашаетесь с нашей <span class="input__item input__item--red">политикой конфиденциальности</span> </p>
+        <button class="input__button" type="submit"></button>
+      </form>
+    </div>
+  </div>
+</aside>
 <header class="header">
   <div class="header-wrapper">
       <div class="header__item">
-        <button  class="header__button"></button>
+        <button class="header__button"></button>
         <a href="#" class="main-menu__link"><img src="img/Logo.svg" alt="Логотип"></a>
       </div>
       <div class="header__item">
@@ -25,7 +120,6 @@
     </div>
 </header>
 <main class ="main">
-
     <div class="title">
    <span class="title__text">Услуги и сервисы</span>
       <div class="title__list title__list-hidden">
@@ -193,101 +287,7 @@
       <button class="price__button">Получить коммерческое <span class="price__button_text">предложение</span></button>
     </div>
 
-  <div class="overlay hidden"></div>
-  <aside class="main-menu__aside">
-    <div class="main-menu">
-      <div class="main-menu__header">
-        <div class="main-menu__item">
-          <button  class="main-menu__button main-menu__button--hidden"></button>
-          <a href="#" class="main-menu__link"><img src="img/Logo.svg" alt="Логотип"></a>
-        </div>
-        <div class="main-menu__item">
-          <button class="main-menu__button"></button>
-        </div>
-      </div>
-      <div class="main-menu__wrapper">
-        <nav class="main-menu__nav">
-          <ul class="main-menu__list">
-            <li class="list__item item--active">
-              <a class="list__link">Ремонт техники</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Услуги и сервисы</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Корпоративным клиентам</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Продавцам техники</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Партнерам</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Производителям</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Наши сервисные центры</a>
-            </li>
-            <li class="list__item">
-              <a class="list__link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="main-menu__footer">
-        <ul class="footer__list">
-          <li class="footer__item"><button class="footer__button"></button></li>
-          <li class="footer__item"><button class="footer__button"></button></li>
-          <li class="footer__item"><button class="footer__button"></button></li>
-        </ul>
-        <div class="footer__mail"><span>mail@cps.com</span></div>
-        <div class="footer__phone"><a class="footer__link" href="tel:88008908900">8 800 890 8900</a></div>
-        <ul class="footer__list">
-          <li class="footer__item"><button class="footer__button active">RU</button></li>
-          <li class="footer__item"><button class="footer__button">EN</button></li>
-          <li class="footer__item"><button class="footer__button">CH</button></li>
-        </ul>
-      </div>
-    </div>
-  </aside>
-  <aside class="call-menu__aside">
-    <div class="call-menu">
-      <div class="call-menu__header call-header">
-        <div class="call-menu__item">
-          <button  class="call-menu__button"></button>
-        </div>
-        <div class="title__item">
-          <span class="title__text">Заказать звонок</span>
-        </div>
-        <form class="call-menu__form" method="post">
-          <input type="tel" placeholder="Телефон" class="call-menu__input">
-          <p class="input__text">Нажимая “отправить”, вы даете согласие на <span class="input__item input__item--red">обработку персональных данных</span> и соглашаетесь с нашей <span class="input__item input__item--red">политикой конфиденциальности</span> </p>
-          <button class="input__button" type="submit"></button>
-        </form>
-      </div>
-    </div>
-  </aside>
-  <aside class="feedback-menu__aside">
-    <div class="feedback-menu">
-      <div class="feedback-menu__header feedback-header">
-        <div class="feedback-menu__item">
-          <button  class="feedback-menu__button"></button>
-        </div>
-        <div class="title__item">
-          <span class="title__text">Обратная связь</span>
-        </div>
-        <form class="feedback-menu__form" method="post">
-          <input type="text" placeholder="Имя" class="feedback-menu__input">
-          <input type="tel" placeholder="Телефон" class="feedback-menu__input">
-          <input type="email" placeholder="Электронная почта" class="feedback-menu__input">
-          <textarea class="feedback-menu__textarea" placeholder="Сообщение" rows="6"></textarea>
-          <p class="input__text">Нажимая “отправить”, вы даете согласие на <span class="input__item input__item--red">обработку персональных данных</span> и соглашаетесь с нашей <span class="input__item input__item--red">политикой конфиденциальности</span> </p>
-          <button class="input__button" type="submit"></button>
-        </form>
-      </div>
-    </div>
-  </aside>
+
 </main>
 <footer class="footer">
   <div class="footer__wrapper">
